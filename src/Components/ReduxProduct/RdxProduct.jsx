@@ -8,7 +8,7 @@ let dispatch=useDispatch()
 
 useEffect(()=>{
 dispatch(fetchProduct())
-},[])
+},)
 
 let {data}=useSelector(state=>state.fetchdata)
 console.log("the api data",data);

@@ -2,7 +2,7 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Routing from './Routing/Routing';
-import RdxProduct from './Components/ReduxProduct/RdxProduct';
+// import RdxProduct from './Components/ReduxProduct/RdxProduct';
 
 
 
