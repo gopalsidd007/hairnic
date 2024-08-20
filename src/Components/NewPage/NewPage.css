@@ -1,0 +1,38 @@
+h1{
+    color: blue;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid red;
+    margin: 50px;
+}
+
+.flex_item{
+    padding: 20px;
+    background-color: blueviolet;
+    text-align: center;
+    color: white;
+    
+}
+
+.main{
+    display: flex;
+    gap: 10px;
+}
+
+.sidebar{
+    flex-basis: 40%;
+}
+.content{
+    flex-basis: 60%;
+    display:flex ;
+    flex-direction: column;
+    gap: 5px;
+}
+.sub_content{
+    display: flex;
+    justify-content:space-evenly;
+}
